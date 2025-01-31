@@ -1,8 +1,8 @@
 # My C Data Structures Repository  
 
 This repository contains implementations of **data structures** in **C**, including:  
-## Linked Lists
-## Single Linked List
+
+## 🔗 Single Linked List
 	  🎥 https://asciinema.org/a/3HZP0BwyJ6PhEHsmeE1E4Jxyf
 
 ### 📂 Source Code
@@ -48,7 +48,7 @@ int main() {
 }
 ```
 
-## Doubly Linked List
+## 🔗 Doubly Linked List
 	 🎥 https://asciinema.org/a/hgP9wo29FRamtcRoUNlG3tDmQ
 
 ### 📂 Source Code
@@ -116,7 +116,7 @@ int main() {
 
 ```
 
-## Circular Linked List  
+## 🔗 Circular Linked List  
 	 🎥 https://asciinema.org/a/MdzUJkYGADCLRNjraw0F0ifxe
 
 ### 📂 Source Code
@@ -168,7 +168,7 @@ int main() {
 }
 ```
 
-##  Stacks
+## 🔗 Stacks
 	 🎥 https://asciinema.org/a/bzWGHqBby0W0MGMsKjJSRM4VP
 
 ### 📂 Source Code
@@ -219,7 +219,7 @@ int main() {
 }
 ```
 
-##  Queues  
+## 🔗 Queues  
 	 🎥 https://asciinema.org/a/XTrJ1VnlJxTcvTJoVXObmSqw7
 
 
@@ -271,7 +271,7 @@ int main() {
 }
 ```
 
-##  Trees  
+## 🔗 Trees  
 	 🎥 https://asciinema.org/a/LYJGCUsrS9JpPNYOh1QbiOhcr
 
 
@@ -334,7 +334,7 @@ int main() {
 }
 ```
 
-##  Graphs
+## 🔗 Graphs
 	 🎥 https://asciinema.org/a/EyCEomwterhB6WanlbG7oAMWm
 
 ###  📂 Source Code
@@ -421,7 +421,7 @@ int main() {
 } 
 ```
 
-## Heaps  
+## 🔗 Heaps  
 	 🎥 https://asciinema.org/a/4Pfo6tva9nSOqWTLJBSu66AZM
 
 
