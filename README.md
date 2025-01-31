@@ -3,7 +3,7 @@
 This repository contains implementations of **data structures** in **C**, including:  
 ## Linked Lists
 ## Single Linked List
-	 ## 🎥 [(https://asciinema.org/a/3HZP0BwyJ6PhEHsmeE1E4Jxyf)]
+	  🎥 [(https://asciinema.org/a/3HZP0BwyJ6PhEHsmeE1E4Jxyf)]
 
 ### 📂 Source Code
 
