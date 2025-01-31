@@ -475,3 +475,7 @@ int main() {
 ```sh
 gcc myprogram.c -o myprogram  
 ./myprogram
+```
+Analyze each algorithms and provide the following results in tabular format:
+![0Part 1](https://github.com/user-attachments/assets/dbbd8fce-8eb0-4e0d-91c3-8ebac6dbcc87)
+![0Part2](https://github.com/user-attachments/assets/542a2017-e70d-4476-8e66-69e669bf202f)
