@@ -48,7 +48,7 @@ int main() {
 }
 
 ## Doubly Linked List
-	## 🎥 https://asciinema.org/a/hgP9wo29FRamtcRoUNlG3tDmQ
+	 🎥 https://asciinema.org/a/hgP9wo29FRamtcRoUNlG3tDmQ
 
 ### 📂 Source Code
 
@@ -114,7 +114,7 @@ int main() {
 }
 
 ## Circular Linked List  
-	## 🎥 https://asciinema.org/a/MdzUJkYGADCLRNjraw0F0ifxe
+	 🎥 https://asciinema.org/a/MdzUJkYGADCLRNjraw0F0ifxe
 
 ### 📂 Source Code
 
@@ -166,7 +166,7 @@ int main() {
 
 
 ##  Stacks
-	## 🎥 https://asciinema.org/a/bzWGHqBby0W0MGMsKjJSRM4VP
+	 🎥 https://asciinema.org/a/bzWGHqBby0W0MGMsKjJSRM4VP
 
 ### 📂 Source Code
 
@@ -216,7 +216,7 @@ int main() {
 }
 
 ##  Queues  
-	## 🎥 https://asciinema.org/a/XTrJ1VnlJxTcvTJoVXObmSqw7
+	 🎥 https://asciinema.org/a/XTrJ1VnlJxTcvTJoVXObmSqw7
 
 
 ###  📂 Source Code
@@ -268,7 +268,7 @@ int main() {
 
 
 ##  Trees  
-	## 🎥 https://asciinema.org/a/LYJGCUsrS9JpPNYOh1QbiOhcr
+	 🎥 https://asciinema.org/a/LYJGCUsrS9JpPNYOh1QbiOhcr
 
 
 ###  📂 Source Code
@@ -330,7 +330,7 @@ int main() {
 }
 
 ##  Graphs
-	## 🎥 https://asciinema.org/a/EyCEomwterhB6WanlbG7oAMWm
+	 🎥 https://asciinema.org/a/EyCEomwterhB6WanlbG7oAMWm
 
 ###  📂 Source Code
 
@@ -417,7 +417,7 @@ int main() {
 
 
 ## Heaps  
-	## 🎥 https://asciinema.org/a/4Pfo6tva9nSOqWTLJBSu66AZM
+	 🎥 https://asciinema.org/a/4Pfo6tva9nSOqWTLJBSu66AZM
 
 
 ### 📂SOURCE CODE:
