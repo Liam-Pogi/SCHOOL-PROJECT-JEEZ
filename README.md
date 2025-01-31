@@ -4,7 +4,6 @@ This repository contains implementations of **data structures** in **C**, includ
 ## Linked Lists
 ## Single Linked List
 	 ## 🎥 [(https://asciinema.org/a/3HZP0BwyJ6PhEHsmeE1E4Jxyf)]
- https://asciinema.org/a/3HZP0BwyJ6PhEHsmeE1E4Jxyf
 
 ### 📂 Source Code
 
@@ -49,8 +48,7 @@ int main() {
 }
 
 ## Doubly Linked List
-	## 🎥 Terminal Demo:
-https://asciinema.org/a/hgP9wo29FRamtcRoUNlG3tDmQ
+	## 🎥 https://asciinema.org/a/hgP9wo29FRamtcRoUNlG3tDmQ
 
 ### 📂 Source Code
 
@@ -116,8 +114,7 @@ int main() {
 }
 
 ## Circular Linked List  
-	## 🎥 Terminal Demo:
-https://asciinema.org/a/MdzUJkYGADCLRNjraw0F0ifxe
+	## 🎥 https://asciinema.org/a/MdzUJkYGADCLRNjraw0F0ifxe
 
 ### 📂 Source Code
 
@@ -169,8 +166,7 @@ int main() {
 
 
 ##  Stacks
-	## 🎥 Terminal Demo:
-https://asciinema.org/a/bzWGHqBby0W0MGMsKjJSRM4VP
+	## 🎥 https://asciinema.org/a/bzWGHqBby0W0MGMsKjJSRM4VP
 
 ### 📂 Source Code
 
@@ -220,8 +216,8 @@ int main() {
 }
 
 ##  Queues  
-	## 🎥 Terminal Demo:
-https://asciinema.org/a/XTrJ1VnlJxTcvTJoVXObmSqw7
+	## 🎥 https://asciinema.org/a/XTrJ1VnlJxTcvTJoVXObmSqw7
+
 
 ###  📂 Source Code
 
@@ -272,8 +268,8 @@ int main() {
 
 
 ##  Trees  
-	## 🎥 Terminal Demo:
-https://asciinema.org/a/LYJGCUsrS9JpPNYOh1QbiOhcr
+	## 🎥 https://asciinema.org/a/LYJGCUsrS9JpPNYOh1QbiOhcr
+
 
 ###  📂 Source Code
 
@@ -334,8 +330,7 @@ int main() {
 }
 
 ##  Graphs
-	## 🎥 Terminal Demo:
-https://asciinema.org/a/EyCEomwterhB6WanlbG7oAMWm
+	## 🎥 https://asciinema.org/a/EyCEomwterhB6WanlbG7oAMWm
 
 ###  📂 Source Code
 
@@ -422,8 +417,8 @@ int main() {
 
 
 ## Heaps  
-	## 🎥 Terminal Demo:
-https://asciinema.org/a/4Pfo6tva9nSOqWTLJBSu66AZM
+	## 🎥 https://asciinema.org/a/4Pfo6tva9nSOqWTLJBSu66AZM
+
 
 ### 📂SOURCE CODE:
 
