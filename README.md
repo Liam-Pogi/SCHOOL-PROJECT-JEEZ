@@ -7,7 +7,7 @@ This repository contains implementations of **data structures** in **C**, includ
 
 ### 📂 Source Code
 
-'''c
+```c
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -46,13 +46,14 @@ int main() {
     displayList(head);
     return 0;
 }
+```
 
 ## Doubly Linked List
 	 🎥 https://asciinema.org/a/hgP9wo29FRamtcRoUNlG3tDmQ
 
 ### 📂 Source Code
 
-'''c
+```c
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -113,12 +114,14 @@ int main() {
     return 0;
 }
 
+```
+
 ## Circular Linked List  
 	 🎥 https://asciinema.org/a/MdzUJkYGADCLRNjraw0F0ifxe
 
 ### 📂 Source Code
 
-'''c
+```c
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -163,14 +166,14 @@ int main() {
     displayList(head);
     return 0;
 }
-
+```
 
 ##  Stacks
 	 🎥 https://asciinema.org/a/bzWGHqBby0W0MGMsKjJSRM4VP
 
 ### 📂 Source Code
 
-'''c
+```c
 #include <stdio.h>
 #define SIZE 5
 
@@ -214,6 +217,7 @@ int main() {
     display();
     return 0;
 }
+```
 
 ##  Queues  
 	 🎥 https://asciinema.org/a/XTrJ1VnlJxTcvTJoVXObmSqw7
@@ -221,7 +225,7 @@ int main() {
 
 ###  📂 Source Code
 
-'''c
+```c
 #include <stdio.h>
 #define SIZE 5
 
@@ -265,7 +269,7 @@ int main() {
     display();
     return 0;
 }
-
+```
 
 ##  Trees  
 	 🎥 https://asciinema.org/a/LYJGCUsrS9JpPNYOh1QbiOhcr
@@ -273,7 +277,7 @@ int main() {
 
 ###  📂 Source Code
 
-'''c
+```c
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -328,13 +332,14 @@ int main() {
 
     return 0;
 }
+```
 
 ##  Graphs
 	 🎥 https://asciinema.org/a/EyCEomwterhB6WanlbG7oAMWm
 
 ###  📂 Source Code
 
-'''c
+```c
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -414,7 +419,7 @@ int main() {
 
     return 0;
 } 
-
+```
 
 ## Heaps  
 	 🎥 https://asciinema.org/a/4Pfo6tva9nSOqWTLJBSu66AZM
@@ -422,7 +427,7 @@ int main() {
 
 ### 📂SOURCE CODE:
 
-'''c
+```c
 #include <stdio.h>
 
 #define SIZE 10
@@ -464,6 +469,7 @@ int main() {
     display();
     return 0;
 }
+```
 
 ## 🚀 How to Compile and Run  
 ```sh
