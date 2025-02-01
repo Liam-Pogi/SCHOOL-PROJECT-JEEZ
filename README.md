@@ -26,12 +26,8 @@ struct Node* createNode(int data) {
 ## 🔗 Doubly Linked List
 	 🎥 https://asciinema.org/a/hgP9wo29FRamtcRoUNlG3tDmQ
 
-### 📂 Source Code
-
-```c
-#include <stdio.h>
-#include <stdlib.h>
-
+### 📌 Quick Code Snippet
+```
 struct Node {
     int data;
     struct Node* next;
@@ -55,40 +51,7 @@ void insertAtBeginning(struct Node** head, struct Node** tail, int data) {
     *head = newNode;
 }
 
-void displayListForward(struct Node* head) {
-    struct Node* temp = head;
-    while (temp) {
-        printf("%d -> ", temp->data);
-        temp = temp->next;
-    }
-    printf("NULL\n");
-}
-
-void displayListReverse(struct Node* tail) {
-    struct Node* temp = tail;
-    while (temp) {
-        printf("%d -> ", temp->data);
-        temp = temp->prev;
-    }
-    printf("NULL\n");
-}
-
-int main() {
-    struct Node* head = NULL;
-    struct Node* tail = NULL;
-    insertAtBeginning(&head, &tail, 10);
-    insertAtBeginning(&head, &tail, 20);
-    insertAtBeginning(&head, &tail, 30);
-
-    printf("Forward: ");
-    displayListForward(head);
-
-    printf("Reverse: ");
-    displayListReverse(tail);
-
-    return 0;
-}
-
+👉 Click here to see the full source code
 ```
 
 ## 🔗 Circular Linked List  
