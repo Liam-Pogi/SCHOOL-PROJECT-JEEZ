@@ -19,9 +19,9 @@ struct Node* createNode(int data) {
     newNode->next = NULL; 
     return newNode; 
 }
-
-👉 Click here to see the full source code
 ```
+👉 Click here to see the full source code
+
 
 ## 🔗 Doubly Linked List
 	 🎥 https://asciinema.org/a/hgP9wo29FRamtcRoUNlG3tDmQ
@@ -50,9 +50,9 @@ void insertAtBeginning(struct Node** head, struct Node** tail, int data) {
     else *tail = newNode;
     *head = newNode;
 }
-
-👉 Click here to see the full source code
 ```
+👉 Click here to see the full source code
+
 
 ## 🔗 Circular Linked List  
 	 🎥 https://asciinema.org/a/MdzUJkYGADCLRNjraw0F0ifxe
@@ -81,9 +81,9 @@ void insertAtEnd(struct Node** head, int data) {
         newNode->next = *head;
     }
 }
-
-Click here to see the full source code
 ```
+👉Click here to see the full source code
+
 
 ## 🔗 Stacks
 	 🎥 https://asciinema.org/a/bzWGHqBby0W0MGMsKjJSRM4VP
@@ -110,20 +110,18 @@ void pop() {
         printf("Popped: %d\n", stack[top--]);
     }
 }
-
-👉 Click here to see the full source code
 ```
+👉 Click here to see the full source code
+
 
 ## 🔗 Queues  
 	 🎥 https://asciinema.org/a/XTrJ1VnlJxTcvTJoVXObmSqw7
 
 
-###  📂 Source Code
+### 📌 Quick Code Snippet
 
 ```c
-#include <stdio.h>
 #define SIZE 5
-
 int queue[SIZE], front = 0, rear = 0;
 
 void enqueue(int value) {
@@ -142,29 +140,9 @@ void dequeue() {
         printf("Dequeued: %d\n", queue[front++]);
     }
 }
-
-void display() {
-    if (front == rear) {
-        printf("Queue is empty!\n");
-    } else {
-        printf("Queue: ");
-        for (int i = front; i < rear; i++) {
-            printf("%d ", queue[i]);
-        }
-        printf("\n");
-    }
-}
-
-int main() {
-    enqueue(10);
-    enqueue(20);
-    enqueue(30);
-    display();
-    dequeue();
-    display();
-    return 0;
-}
 ```
+👉 Click here to see the full source code
+
 
 ## 🔗 Trees  
 	 🎥 https://asciinema.org/a/LYJGCUsrS9JpPNYOh1QbiOhcr
