@@ -119,12 +119,9 @@ int main() {
 ## 🔗 Circular Linked List  
 	 🎥 https://asciinema.org/a/MdzUJkYGADCLRNjraw0F0ifxe
 
-### 📂 Source Code
+### 📌 Quick Code Snippet
 
 ```c
-#include <stdio.h>
-#include <stdlib.h>
-
 struct Node {
     int data;
     struct Node* next;
@@ -147,25 +144,7 @@ void insertAtEnd(struct Node** head, int data) {
     }
 }
 
-void displayList(struct Node* head) {
-    if (head == NULL) return;
-    struct Node* temp = head;
-    do {
-        printf("%d -> ", temp->data);
-        temp = temp->next;
-    } while (temp != head);
-    printf("HEAD\n");
-}
-
-int main() {
-    struct Node* head = NULL;
-    insertAtEnd(&head, 10);
-    insertAtEnd(&head, 20);
-    insertAtEnd(&head, 30);
-    printf("Circular Linked List: ");
-    displayList(head);
-    return 0;
-}
+Click here to see the full source code
 ```
 
 ## 🔗 Stacks
