@@ -142,7 +142,7 @@ void dequeue() {
 	 🎥 https://asciinema.org/a/LYJGCUsrS9JpPNYOh1QbiOhcr
 
 
-###  📂 Source Code
+### 📌 Quick Code Snippet
 
 ```c
  typedef struct Node {
@@ -171,12 +171,9 @@ Node* insert(Node* root, int data) {
 ## 🔗 Graphs
 	 🎥 https://asciinema.org/a/EyCEomwterhB6WanlbG7oAMWm
 
-###  📂 Source Code
+### 📌 Quick Code Snippet
 
 ```c
-#include <stdio.h>
-#include <stdlib.h>
-
 typedef struct Node {
     int vertex;
     struct Node* next;
@@ -187,30 +184,10 @@ typedef struct Graph {
     Node** adjLists;
 } Graph;
 
-Node* createNode(int v) {
-    Node* newNode = (Node*)malloc(sizeof(Node));
-    if (!newNode) {
-        printf("Memory allocation failed\n");
-        return NULL;
-    }
-    newNode->vertex = v;
-    newNode->next = NULL;
-    return newNode;
-}
-
 Graph* createGraph(int vertices) {
     Graph* graph = (Graph*)malloc(sizeof(Graph));
-    if (!graph) {
-        printf("Memory allocation failed\n");
-        return NULL;
-    }
     graph->numVertices = vertices;
     graph->adjLists = (Node**)malloc(vertices * sizeof(Node*));
-    if (!graph->adjLists) {
-        printf("Memory allocation failed\n");
-        free(graph);
-        return NULL;
-    }
     for (int i = 0; i < vertices; i++)
         graph->adjLists[i] = NULL;
     return graph;
@@ -218,54 +195,20 @@ Graph* createGraph(int vertices) {
 
 void addEdge(Graph* graph, int src, int dest) {
     Node* newNode = createNode(dest);
-    if (!newNode) return;
     newNode->next = graph->adjLists[src];
     graph->adjLists[src] = newNode;
-
-    newNode = createNode(src);
-    if (!newNode) return;
-    newNode->next = graph->adjLists[dest];
-    graph->adjLists[dest] = newNode;
 }
-
-void printGraph(Graph* graph) {
-    for (int v = 0; v < graph->numVertices; v++) {
-        Node* temp = graph->adjLists[v];
-        printf("\nVertex %d: ", v);
-        while (temp) {
-            printf("-> %d ", temp->vertex);
-            temp = temp->next;
-        }
-        printf("\n");
-    }
-}
-
-int main() {
-    int vertices = 4;
-    Graph* graph = createGraph(vertices);
-
-    addEdge(graph, 0, 1);
-    addEdge(graph, 0, 2);
-    addEdge(graph, 1, 2);
-    addEdge(graph, 1, 3);
-
-    printGraph(graph);
-
-    return 0;
-} 
 ```
+👉 Click here to see the full source code
 
 ## 🔗 Heaps  
 	 🎥 https://asciinema.org/a/4Pfo6tva9nSOqWTLJBSu66AZM
 
 
-### 📂SOURCE CODE:
+###📌 Quick Code Snippet
 
 ```c
-#include <stdio.h>
-
 #define SIZE 10
-
 int heap[SIZE], heapSize = 0;
 
 void insert(int value) {
@@ -275,6 +218,7 @@ void insert(int value) {
     }
     heap[heapSize] = value;
     int i = heapSize;
+    
     while (i > 0 && heap[i] > heap[(i - 1) / 2]) {
         int temp = heap[i];
         heap[i] = heap[(i - 1) / 2];
@@ -282,34 +226,14 @@ void insert(int value) {
         i = (i - 1) / 2;
     }
     heapSize++;
-}
-
-void display() {
-    if (heapSize == 0) {
-        printf("Heap is empty!\n");
-    } else {
-        printf("Heap: ");
-        for (int i = 0; i < heapSize; i++) {
-            printf("%d ", heap[i]);
-        }
-        printf("\n");
-    }
-}
-
-int main() {
-    insert(10);
-    insert(20);
-    insert(15);
-    display();
-    return 0;
+    printf("Inserted: %d\n", value);
 }
 ```
+👉 Click here to see the full source code
+
 
 ## 🚀 How to Compile and Run  
 ```sh
 gcc myprogram.c -o myprogram  
 ./myprogram
 ```
-Analyze each algorithms and provide the following results in tabular format:
-![0Part 1](https://github.com/user-attachments/assets/dbbd8fce-8eb0-4e0d-91c3-8ebac6dbcc87)
-![0Part2](https://github.com/user-attachments/assets/542a2017-e70d-4476-8e66-69e669bf202f)
