@@ -88,12 +88,10 @@ Click here to see the full source code
 ## 🔗 Stacks
 	 🎥 https://asciinema.org/a/bzWGHqBby0W0MGMsKjJSRM4VP
 
-### 📂 Source Code
+### 📌 Quick Code Snippet
 
 ```c
-#include <stdio.h>
 #define SIZE 5
-
 int stack[SIZE], top = -1;
 
 void push(int value) {
@@ -113,27 +111,7 @@ void pop() {
     }
 }
 
-void display() {
-    if (top == -1) {
-        printf("Stack is empty!\n");
-    } else {
-        printf("Stack: ");
-        for (int i = 0; i <= top; i++) {
-            printf("%d ", stack[i]);
-        }
-        printf("\n");
-    }
-}
-
-int main() {
-    push(10);
-    push(20);
-    push(30);
-    display();
-    pop();
-    display();
-    return 0;
-}
+👉 Click here to see the full source code
 ```
 
 ## 🔗 Queues  
