@@ -19,7 +19,7 @@ struct Node* createNode(int data) {
     return newNode; 
 }
 ```
-👉 [Click Here for the source code](https://github.com/Liam-Pogi/SCHOOL-PROJECT-JEEZ/blob/main/source_code/linked_list.c)
+👉 [Click here for source code](https://github.com/Liam-Pogi/SCHOOL-PROJECT-JEEZ/blob/main/source_code/linked_list.c)
 
 ## 🔗 Doubly Linked List
 	 🎥 https://asciinema.org/a/hgP9wo29FRamtcRoUNlG3tDmQ
@@ -49,7 +49,7 @@ void insertAtBeginning(struct Node** head, struct Node** tail, int data) {
     *head = newNode;
 }
 ```
-👉 Click here to see the full source code
+👉 [Click here for source code](https://github.com/Liam-Pogi/SCHOOL-PROJECT-JEEZ/blob/main/source_code/doubly_linked_list.c)
 
 ## 🔗 Circular Linked List  
 	 🎥 https://asciinema.org/a/MdzUJkYGADCLRNjraw0F0ifxe
@@ -79,7 +79,7 @@ void insertAtEnd(struct Node** head, int data) {
     }
 }
 ```
-👉Click here to see the full source code
+👉 [Click here for source code](https://github.com/Liam-Pogi/SCHOOL-PROJECT-JEEZ/blob/main/source_code/circular_linked_list.c)  
 
 ## 🔗 Stacks
 	 🎥 https://asciinema.org/a/bzWGHqBby0W0MGMsKjJSRM4VP
@@ -107,7 +107,7 @@ void pop() {
     }
 }
 ```
-👉 Click here to see the full source code
+👉 [Click here for source code](https://github.com/Liam-Pogi/SCHOOL-PROJECT-JEEZ/blob/main/source_code/stack.c)  
 
 ## 🔗 Queues  
 	 🎥 https://asciinema.org/a/XTrJ1VnlJxTcvTJoVXObmSqw7
@@ -136,7 +136,7 @@ void dequeue() {
     }
 }
 ```
-👉 Click here to see the full source code
+👉 [Click here for source code](https://github.com/Liam-Pogi/SCHOOL-PROJECT-JEEZ/blob/main/source_code/queue.c)  
 
 ## 🔗 Trees  
 	 🎥 https://asciinema.org/a/LYJGCUsrS9JpPNYOh1QbiOhcr
@@ -166,7 +166,7 @@ Node* insert(Node* root, int data) {
     return root;
 }
 ```
-👉 Click here to see the full source code
+👉 . [Click here for source code](https://github.com/Liam-Pogi/SCHOOL-PROJECT-JEEZ/blob/main/source_code/trees.c)
 
 ## 🔗 Graphs
 	 🎥 https://asciinema.org/a/EyCEomwterhB6WanlbG7oAMWm
@@ -199,7 +199,7 @@ void addEdge(Graph* graph, int src, int dest) {
     graph->adjLists[src] = newNode;
 }
 ```
-👉 Click here to see the full source code
+👉 . [Click here for source code](https://github.com/Liam-Pogi/SCHOOL-PROJECT-JEEZ/blob/main/source_code/graph.c) 
 
 ## 🔗 Heaps  
 	 🎥 https://asciinema.org/a/4Pfo6tva9nSOqWTLJBSu66AZM
@@ -229,7 +229,7 @@ void insert(int value) {
     printf("Inserted: %d\n", value);
 }
 ```
-👉 Click here to see the full source code
+👉 [Click here for source code](https://github.com/Liam-Pogi/SCHOOL-PROJECT-JEEZ/blob/main/source_code/heap.c)
 
 
 ## 🚀 How to Compile and Run  
