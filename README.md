@@ -19,7 +19,7 @@ struct Node* createNode(int data) {
     return newNode; 
 }
 ```
-👉 [Click Here for the sour code](https://github.com/Liam-Pogi/SCHOOL-PROJECT-JEEZ/blob/main/source_code/singly_linked_list.c)
+👉 [Click Here for the source code](https://github.com/Liam-Pogi/SCHOOL-PROJECT-JEEZ/blob/main/source_code/linked_list.c)
 
 ## 🔗 Doubly Linked List
 	 🎥 https://asciinema.org/a/hgP9wo29FRamtcRoUNlG3tDmQ
