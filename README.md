@@ -20,7 +20,7 @@ struct Node* createNode(int data) {
     return newNode; 
 }
 
-👉 Click here to see the full source code
+[👉 Click here to access the full sour code] (https://github.com/Liam-Pogi/SCHOOL-PROJECT-JEEZ/blob/main/source_code/linked_list.c)
 ```
 
 ## 🔗 Doubly Linked List
