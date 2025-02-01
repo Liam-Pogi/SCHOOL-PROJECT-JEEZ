@@ -6,7 +6,7 @@ This repository contains implementations of **data structures** in **C**, includ
 	  🎥 https://asciinema.org/a/3HZP0BwyJ6PhEHsmeE1E4Jxyf
 
 
-### 📂 Source Code
+### 📌 Quick Code Snippet
 ```c
 struct Node { 
     int data; 
@@ -20,7 +20,7 @@ struct Node* createNode(int data) {
     return newNode; 
 }
 
-👉[Click here to see source code] (https://github.com/Liam-Pogi/SCHOOL-PROJECT-JEEZ/blob/main/source_code/linked_list.c)
+👉[Click here to see source code](https://github.com/Liam-Pogi/SCHOOL-PROJECT-JEEZ/blob/main/source_code/linked_list.c)
 ```
 
 ## 🔗 Doubly Linked List
