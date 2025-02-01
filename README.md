@@ -5,7 +5,6 @@ This repository contains implementations of **data structures** in **C**, includ
 ## 🔗 Single Linked List
 	  🎥 https://asciinema.org/a/3HZP0BwyJ6PhEHsmeE1E4Jxyf
 
-
 ### 📌 Quick Code Snippet
 ```c
 struct Node { 
@@ -21,7 +20,6 @@ struct Node* createNode(int data) {
 }
 ```
 👉 Click here to see the full source code
-
 
 ## 🔗 Doubly Linked List
 	 🎥 https://asciinema.org/a/hgP9wo29FRamtcRoUNlG3tDmQ
@@ -53,7 +51,6 @@ void insertAtBeginning(struct Node** head, struct Node** tail, int data) {
 ```
 👉 Click here to see the full source code
 
-
 ## 🔗 Circular Linked List  
 	 🎥 https://asciinema.org/a/MdzUJkYGADCLRNjraw0F0ifxe
 
@@ -84,7 +81,6 @@ void insertAtEnd(struct Node** head, int data) {
 ```
 👉Click here to see the full source code
 
-
 ## 🔗 Stacks
 	 🎥 https://asciinema.org/a/bzWGHqBby0W0MGMsKjJSRM4VP
 
@@ -112,7 +108,6 @@ void pop() {
 }
 ```
 👉 Click here to see the full source code
-
 
 ## 🔗 Queues  
 	 🎥 https://asciinema.org/a/XTrJ1VnlJxTcvTJoVXObmSqw7
@@ -143,7 +138,6 @@ void dequeue() {
 ```
 👉 Click here to see the full source code
 
-
 ## 🔗 Trees  
 	 🎥 https://asciinema.org/a/LYJGCUsrS9JpPNYOh1QbiOhcr
 
@@ -151,10 +145,7 @@ void dequeue() {
 ###  📂 Source Code
 
 ```c
-#include <stdio.h>
-#include <stdlib.h>
-
-typedef struct Node {
+ typedef struct Node {
     int data;
     struct Node* left;
     struct Node* right;
@@ -162,10 +153,6 @@ typedef struct Node {
 
 Node* createNode(int data) {
     Node* newNode = (Node*)malloc(sizeof(Node));
-    if (!newNode) {
-        printf("Memory allocation failed\n");
-        return NULL;
-    }
     newNode->data = data;
     newNode->left = NULL;
     newNode->right = NULL;
@@ -174,38 +161,12 @@ Node* createNode(int data) {
 
 Node* insert(Node* root, int data) {
     if (root == NULL) return createNode(data);
-    if (data < root->data) 
-        root->left = insert(root->left, data);
-    else 
-        root->right = insert(root->right, data);
+    if (data < root->data) root->left = insert(root->left, data);
+    else root->right = insert(root->right, data);
     return root;
 }
-
-void inorder(Node* root) {
-    if (root != NULL) {
-        inorder(root->left);
-        printf("%d ", root->data);
-        inorder(root->right);
-    }
-}
-
-int main() {
-    Node* root = NULL;
-    root = insert(root, 5);
-    insert(root, 3);
-    insert(root, 7);
-    insert(root, 2);
-    insert(root, 4);
-    insert(root, 6);
-    insert(root, 8);
-
-    printf("Inorder traversal: ");
-    inorder(root);
-    printf("\n");
-
-    return 0;
-}
 ```
+👉 Click here to see the full source code
 
 ## 🔗 Graphs
 	 🎥 https://asciinema.org/a/EyCEomwterhB6WanlbG7oAMWm
